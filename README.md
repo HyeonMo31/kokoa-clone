@@ -1,3 +1,3 @@
 # kokoa clone
 
-first git let's go
+first HTML and CSS study
