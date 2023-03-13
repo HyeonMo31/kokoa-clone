@@ -12,7 +12,7 @@
 }
 
 /* width 645보다 작으면 */
-@media screen and (max-width: 10045px) {
+@media screen and (max-width: 645px) {
   #no-mobile {
     display: none;
   }
