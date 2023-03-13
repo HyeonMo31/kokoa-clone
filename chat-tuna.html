@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat with 참치 - 참치 톡</title>
+  </head>
+  <body id="chat-screen">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+        <!-- To Do: Wifi Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>55%</span>
+        <!-- battery Icon -->
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <!-- Lightning Icon -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fa-solid fa-angle-left fa-xl"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">참치</h1>
+      </div>
+      <div class="alt-header__column">
+        <span>
+          <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+        </span>
+        <span>
+          <i class="fa-solid fa-bars fa-xl"></i>
+        </span>
+      </div>
+    </header>
+    <main class="main-screen main-chat">
+      <div class="chats_timestamp">월요일, 3월 13일, 2023</div>
+      <div class="message-row">
+        <img src="tuna/tuna.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">참치</span>
+          <div class="message__info">
+            <span class="message__bubble">안녕</span>
+            <span class="message__time">15:23</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="tuna/tuna.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">참치</span>
+          <div class="message__info">
+            <span class="message__bubble"
+              >잘 지내니 여기는 살만 하단다....</span
+            >
+            <span class="message__time">15:23</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble"
+              >ㅎㅇㅇㅎ 나는 잘 지낸다 보기 좋아 보이네</span
+            >
+            <span class="message__time">15:23</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="tuna/tuna.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">참치</span>
+          <div class="message__info">
+            <span class="message__bubble">요즘 할게 너무 많아.</span>
+            <span class="message__time">15:23</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="tuna/tuna.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">참치</span>
+          <div class="message__info">
+            <span class="message__bubble">지금 시간이 너무 안가 ㅋㅋ</span>
+            <span class="message__time">15:24</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="tuna/tuna.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">참치</span>
+          <div class="message__info">
+            <span class="message__bubble">이거 재밌네</span>
+            <span class="message__time">15:24</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="tuna/tuna.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">참치</span>
+          <div class="message__info">
+            <span class="message__bubble">다음에는 실시간 채팅을 하자</span>
+            <span class="message__time">15:24</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="tuna/tuna.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">참치</span>
+          <div class="message__info">
+            <span class="message__bubble">ㅋㅋㅋㅋ</span>
+            <span class="message__time">15:25</span>
+          </div>
+        </div>
+      </div>
+      <div class="message-row">
+        <img src="tuna/tuna.jpg" />
+        <div class="message-row__content">
+          <span class="message__author">참치</span>
+          <div class="message__info">
+            <span class="message__bubble">시간 언제가냐...</span>
+            <span class="message__time">15:25</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <form class="reply">
+      <div class="div reply__column">
+        <i class="fa-regular fa-square-plus fa-lg"></i>
+      </div>
+      <div class="reply__column">
+        <input type="text" placeholder="메세지를 입력하세요." />
+
+        <i class="fa-regular fa-face-smile fa-lg"></i>
+        <button><i class="fa-solid fa-arrow-up"></i></button>
+      </div>
+    </form>
+    <div id="no-mobile">
+      <span>화면이 너무 큽니다.!! </span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/5f234ab63e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

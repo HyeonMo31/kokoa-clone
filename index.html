@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to 참치 톡</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+        <!-- To Do: Wifi Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <!-- battery Icon -->
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <!-- Lightning Icon -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">참치톡에 오신것을 환영합니다.</h1>
+      <p class="welcome-header__text">
+        참치 컴퍼니의 계정을 가지고 계신다면, 이메일 혹은 핸드폰 번호로 로그인을
+        수행하십시오.
+      </p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+      <input type="text" placeholder="Email or phone number" />
+      <input type="password" placeholder="Password" />
+      <input type="submit" value="로그인" />
+      <a href="#">참치컴퍼니 계정 혹은 비밀번호 찾기</a>
+    </form>
+    <div id="no-mobile">
+      <span>화면이 너무 큽니다.!! </span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/5f234ab63e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

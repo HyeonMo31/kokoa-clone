@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>채팅 - 참치 톡</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+        <!-- To Do: Wifi Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>50%</span>
+        <!-- battery Icon -->
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <!-- Lightning Icon -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">채팅</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-brands fa-searchengin fa-lg"></i></span>
+        <span><i class="fa-regular fa-comment-dots fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a
+        ></span>
+      </div>
+    </header>
+    <main class="main-screen">
+      <a href="chat-tuna.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <!-- src="https://img.theqoo.net/img/QArwk.jpg" -->
+            <img
+              class="user-component__avatar user-component__avatar"
+              src="tuna/tuna.jpg"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">참치</h4>
+              <h6 class="user-component__subtitle">시간 언제 가냐...</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">12:46</span>
+            <span class="badge">6</span>
+          </div>
+        </div>
+      </a>
+      <a href="chat-org.html">
+        <div class="user-component">
+          <div class="user-component__column user-component__column--org">
+            <!-- src="https://img.theqoo.net/img/QArwk.jpg" -->
+            <div class="user-component__org">
+              <div>
+                <img class="user-component__avatar--mini" src="tuna/tuna.jpg" />
+                <img
+                  class="user-component__avatar--mini"
+                  src="tuna/daebak.JPG"
+                />
+              </div>
+              <div>
+                <img
+                  class="user-component__avatar--mini"
+                  src="https://images.pexels.com/photos/53114/horse-arabs-stallion-ride-53114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                />
+                <img
+                  class="user-component__avatar--mini"
+                  src="https://images.pexels.com/photos/11733155/pexels-photo-11733155.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                />
+              </div>
+            </div>
+            <div class="user-component__text">
+              <h4 class="user-component__title">참치</h4>
+              <h6 class="user-component__subtitle">아이비ㅋㅋㅋㅋ.</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">19:34</span>
+            <span class="badge">3</span>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <!-- href에 커서두고 탭 탭탭해봐. -->
+        <li class="nav__btn">
+          <a href="friends.html" class="nav__link"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="chats.html" class="nav__link">
+            <span class="nav__notification badge">9</span
+            ><i class="fa-solid fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="find.html" class="nav__link"
+            ><i class="fa-brands fa-searchengin fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="more.html" class="nav__link"
+            ><span class="nav__dot"></span
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div id="no-mobile">
+      <span>화면이 너무 큽니다.!! </span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/5f234ab63e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

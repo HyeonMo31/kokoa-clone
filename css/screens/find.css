@@ -1,0 +1,108 @@
+.recommended-friends {
+  padding: 25px 0px;
+  margin: 25px 0px;
+  border-top: var(--main-border);
+  border-bottom: var(--main-border);
+  color: rgba(0, 0, 0, 0.5);
+}
+.recommended-friends__title {
+  font-size: 14px;
+}
+.recommended-friends span {
+  margin: 110px 0px;
+  text-align: center;
+  display: block;
+  /* span은 마진적용이 안되니까.!! */
+}
+.open-chat__header {
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.8;
+  margin-bottom: 25px;
+}
+.open-chat__header span {
+  opacity: 0.6;
+}
+.open-post {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.open-post__title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.open-post__hashtags {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+.open-post__members {
+  display: flex;
+  margin-top: 7px;
+  align-items: center;
+}
+.open-post__members img {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.open-post__member-count {
+  opacity: 0.5;
+}
+.open-post__members .divider {
+  width: 1px;
+  height: 15px;
+  margin: 0px 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.open-post__member-status {
+  color: #ffb0e0;
+}
+.open-post__photo img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.open-post__heart-count {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
+  font-size: 12px;
+}
+.open-post__heart-count span {
+  margin-left: 5px;
+}
+.open-post__photo {
+  position: relative;
+}
+
+@keyframes heartBeat {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.4);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  /* 애니메이션이 훨씬 부드러워진다.? */
+  animation: heartBeat 1s linear infinite;
+}

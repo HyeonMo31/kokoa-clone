@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>더보기 - 참치 톡</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+        <!-- To Do: Wifi Icon -->
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>55%</span>
+        <!-- battery Icon -->
+        <i class="fa-solid fa-battery-half fa-lg"></i>
+        <!-- Lightning Icon -->
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="screen-header">
+      <h1 class="screen-header__title">더보기</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-brands fa-searchengin fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span
+          ><a href="settings.html"><i class="fa-solid fa-gear fa-lg"></i></a
+        ></span>
+      </div>
+    </header>
+    <main class="main-screen more-screen">
+      <div class="user-component">
+        <div class="user-component__column">
+          <!-- src="https://img.theqoo.net/img/QArwk.jpg" -->
+          <img
+            class="user-component__avatar user-component__avatar--xl"
+            src="tuna/hyeonmo.jpg"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">현모</h4>
+            <h6 class="user-component__subtitle">010-1324-1548</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <i class="fa-regular fa-message fa-2x"></i>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-calendar-check"></i><span>캘린더</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-address-book"></i><span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-face-smile-beam"></i><span>이모티콘</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-paint-roller"></i><span>테마</span>
+        </div>
+      </div>
+      <div class="icon-row">
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-shirt"></i><span>패션</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-gift"></i><span>선물하기</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-regular fa-comments"></i><span>오픈채팅</span>
+        </div>
+        <div class="icon-row__icon">
+          <i class="fa-solid fa-utensils"></i><span>주문하기</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-quote-right"></i>
+            </div>
+            <span>카카오 스토리</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <!-- href에 커서두고 탭 탭탭해봐. -->
+        <li class="nav__btn">
+          <a href="friends.html" class="nav__link"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="chats.html" class="nav__link">
+            <span class="nav__notification badge">9</span
+            ><i class="fa-sharp fa-regular fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="find.html" class="nav__link"
+            ><i class="fa-solid fa-magnifying-glass-plus fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a href="more.html" class="nav__link"
+            ><span class="nav__dot"></span
+            ><i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/5f234ab63e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
